@@ -14,7 +14,9 @@ int temp;
 size_t i, j;
 
 if (array == NULL || size < 2)
-    return;
+{
+return;
+}
 
 for (i = 0; i < size - 1; i++)
 {
