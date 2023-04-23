@@ -8,14 +8,13 @@
 
 void insertion_sort_list(listint_t **list)
 {
-listint_t *c_list, *sort;
+listint_t *c_list;
 
 if (list == NULL || *list == NULL || (*list)->next == NULL)
 {
 return;
 }
 
-sort = *list;
 c_list = (*list)->next;
 
 while (c_list != NULL)
@@ -43,8 +42,8 @@ c_list->prev->next = c_list;
 
 print_list(*list);
 }
-sort = c_list;
 c_list = c_list->next;
 }
+
 /* coded by EnGentech */
 }
