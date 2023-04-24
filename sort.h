@@ -18,6 +18,7 @@ struct listint_s *next;
 } listint_t;
 
 void print_array(const int *array, size_t size);
+void selection_sort(int *array, size_t size);
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 int lum_part(int *array, size_t size, int low, int high);
