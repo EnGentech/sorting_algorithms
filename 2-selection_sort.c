@@ -34,5 +34,5 @@ array[min] = temp;
 print_array(array, size);
 }
 }
-/* Coded by EnGentech */
+/* Coded by EnGentech and Ozonwu Frankelly */
 }

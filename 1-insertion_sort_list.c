@@ -45,5 +45,5 @@ print_list(*list);
 c_list = c_list->next;
 }
 
-/* coded by EnGentech */
+/* coded by EnGentech and Ozonwu Frankelly */
 }

@@ -24,5 +24,5 @@ void swp(int *i, int *j);
 void lum_sort(int *array, size_t size, int low, int high);
 void quick_sort(int *array, size_t size);
 
-/* Coded by EnGentech */
+/* Coded by EnGentech and Ozonwu Frankelly */
 #endif
