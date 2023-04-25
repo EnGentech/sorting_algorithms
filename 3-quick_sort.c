@@ -13,7 +13,7 @@ tmp = *i;
 *i = *j;
 *j = tmp;
 
-/* Coded by EnGentech */
+/* Coded by EnGentech and Ozonwu Frankelly */
 }
 
 /**
@@ -34,7 +34,7 @@ lum_sort(array, size, low, half - 1);
 lum_sort(array, size, half + 1, high);
 }
 
-/* Coded by EnGentech */
+/* Coded by EnGentech and Ozonwu Frankelly */
 }
 
 /**
@@ -70,7 +70,7 @@ print_array(array, size);
 }
 return (up);
 
-/* Coded by EnGentech */
+/* Coded by EnGentech and Ozonwu Frankelly */
 }
 
 /**
@@ -85,5 +85,5 @@ return;
 
 lum_sort(array, size, 0, size - 1);
 
-/* Coded by EnGentech */
+/* Coded by EnGentech and Ozonwu frankelly */
 }

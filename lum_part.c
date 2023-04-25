@@ -33,5 +33,5 @@ print_array(array, size);
 }
 return (up);
 
-/* Coded by EnGentech */
+/* Coded by EnGentech and Ozonwu Frankelly */
 }

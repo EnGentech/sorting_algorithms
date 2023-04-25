@@ -18,5 +18,5 @@ lum_sort(array, size, low, half - 1);
 lum_sort(array, size, half + 1, high);
 }
 
-/* Coded by EnGentech */
+/* Coded by EnGentech and Ozonwu Frankelly */
 }
