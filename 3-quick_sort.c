@@ -1,16 +1,17 @@
 #include "sort.h"
 
 /**
-* quick_sort - sort the element given
-* @array: the element of the array is given here
-* @size: specify the size of the array
+* swp - swap the content of a to b and vice versa
+* @i: swap to j
+* @j: swap to i
 */
-void quick_sort(int *array, size_t size)
+void swp(int *i, int *j)
 {
-if (array == NULL || size < 2)
-return;
+int tmp;
 
-lum_sort(array, size, 0, size - 1);
+tmp = *i;
+*i = *j;
+*j = tmp;
 
 /* Coded by EnGentech */
 }
@@ -64,7 +65,7 @@ up++;
 
 if (array[up] > *pivot)
 {
-swp(array + down, pivot);
+swp(array + up, pivot);
 print_array(array, size);
 }
 return (up);
@@ -73,17 +74,16 @@ return (up);
 }
 
 /**
-* swp - swap the content of a to b and vice versa
-* @i: swap to j
-* @j: swap to i
+* quick_sort - sort the element given
+* @array: the element of the array is given here
+* @size: specify the size of the array
 */
-void swp(int *i, int *j)
+void quick_sort(int *array, size_t size)
 {
-int tmp;
+if (array == NULL || size < 2)
+return;
 
-tmp = *i;
-*i = *j;
-*j = tmp;
+lum_sort(array, size, 0, size - 1);
 
 /* Coded by EnGentech */
 }
