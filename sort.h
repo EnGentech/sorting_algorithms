@@ -23,6 +23,7 @@ void selection_sort(int *array, size_t size);
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void shell_sort(int *array, size_t size);
+void cocktail_sort_list(listint_t **list);
 int lum_part(int *array, size_t size, int low, int high);
 void swp(int *i, int *j);
 void lum_sort(int *array, size_t size, int low, int high);
