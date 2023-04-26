@@ -45,6 +45,5 @@ void shell_sort(int *array, size_t size)
 		}
 		print_array(array, size);
 	}
-}
 /* Coded by EnGentech and Ozonwu Frankelly */
 }
